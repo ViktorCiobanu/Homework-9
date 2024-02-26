@@ -1,0 +1,100 @@
+/* .text {    
+    font-weight: bold;
+}
+
+
+.text1 {
+    font-size: 10px;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+.text3 {
+    font-size: 30px;
+}
+
+.text4 {
+    font-size: 40px;
+}
+
+.text5 {
+    font-size: 50px;
+} */
+
+/* :root {
+    --bg-color-primary: gray;
+}
+
+
+.spinner {
+    width: 300px;
+    height: 300px;
+    position: relative;   
+    
+}
+
+.element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 16px solid transparent;
+    overflow: hidden;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+    
+}
+
+.element1 {
+    border-bottom: 16px solid yellow;
+    border-top: 16px solid yellow;
+}
+
+.element2 {
+    border-left: 16px solid red;
+}
+
+.element3 {
+    border-right: 16px solid blue;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+:root {
+    --bg-color-primary: gray;
+}
+
+body {
+    margin: 0;
+}
+.linear {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, green, orange, gray, orange, green);
+    background-size: 300%;
+    background-position: left;
+    animation: bg-animation 10s linear infinite;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: center;
+    }
+
+    100% {
+        background-position: right;
+    }    
+}
